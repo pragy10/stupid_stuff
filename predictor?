@@ -1,0 +1,32 @@
+print('Hello! i have a great predictive mind! \nSay me your age and i\'ll guess what your doing usually. \nReady?')
+v = int(input('Enter your age here => '))
+if v <= 1:
+  print('What are you doing here??? you should be sleeping or crying right now!')
+elif v <= 5:
+    print("I see you are started to read... nice")
+elif v <= 10:
+  print("You play in your gardern mostly.. right?")
+elif v <= 15:
+    print("Its hard time in school, but that will be fine.. dont worry!")
+elif v <= 20:
+  print("You finally feel liberated since your in college!")
+elif v <= 25:
+    print("Started searching for jobs.. or maybe you got one!")
+elif v <= 30:
+  print("You must be well settled by now and have a family.. or idk")
+elif v <= 35:
+    print("I know, job stress.. thats fine youll be okay later..")
+elif v <= 40:
+  print("You started worrying about your generation I guess")
+elif v <= 45:
+    print("Tough time it is to manage your home as well as your work pressure.")
+elif v <= 50:
+  print('STILL WORKING!')
+elif v <= 60:
+    print("Your'e about to retire but might still think about working.")
+elif v <= 70:
+  print("You should be retired by now!")
+elif v <=90:
+  print("Your doing good! Should start being healthy from now on!")
+elif v > 100:
+  print("What are you? Immortal? Seems like a worthy opponent for queen elizabeth to me.. ")
