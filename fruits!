@@ -1,0 +1,8 @@
+a={'apples','oranges','pears','apples','bananas','cherries'}
+print(a)
+b=set('pearsapplesbananasandorangesareallgood')        #only use set() for string
+print(b)
+c=set('123')
+print(c)
+a.add('mangoes')
+print(a)
