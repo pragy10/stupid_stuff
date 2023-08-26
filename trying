@@ -1,0 +1,18 @@
+x = int(input("2 + 4 = "))
+
+if x == 6:
+  print('yes got it correct')
+elif x != 6:
+  print('no. not correct try again.')
+  x = int(input("2 + 4 = "))
+  if x == 6:
+    print('finally got it correct. and i assume the first time you did was a typo?')  
+  elif x != 6:
+    print('''huh... pathetic 
+    you have lot more to learn. 
+              fine ill start with the basics ''')
+    x = int(input('1 + 1 = '))
+    if x == 2:
+      print('good now restart and try the first sum.')
+    elif x != 2:
+      print("I GIVE UP!")
